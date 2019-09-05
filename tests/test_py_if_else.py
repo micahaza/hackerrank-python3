@@ -12,6 +12,7 @@ test_data = [
     (['20'], 'Weird'),
     (['31'], 'Weird'),
     (['32'], 'Not Weird'),
+    (['42'], 'Not Weird'),
     (['98'], 'Not Weird'),
     (['99'], 'Weird')
 ]
