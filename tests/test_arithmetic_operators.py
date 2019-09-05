@@ -12,6 +12,7 @@ test_data = [
     (['7', '9'], '16\n-2\n63')
 ]
 
+
 @pytest.mark.parametrize("test_input, expected_output", test_data)
 def test_if_else(test_input, expected_output):
     with patch('builtins.input', side_effect=test_input):
