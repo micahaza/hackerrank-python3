@@ -1,5 +1,5 @@
 from unittest.mock import patch
-from solutions.write_a_function import  is_leap
+from solutions.write_a_function import is_leap
 import pytest
 import sys
 import io
