@@ -1,3 +1,6 @@
+# https://www.hackerrank.com/challenges/py-if-else/problem
+
+
 def if_else():
     n = int(input().strip())
     if n % 2 == 1:  # odd
