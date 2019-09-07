@@ -21,6 +21,5 @@ def test_if_else(test_input, expected_output):
         sys.stdout = io.StringIO()
         loops()
         output = sys.stdout.getvalue().strip()
-        print(output)
         sys.stdout = stdout
         assert output == expected_output
